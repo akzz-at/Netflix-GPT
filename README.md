@@ -1,8 +1,8 @@
 # 🎬 Netflix-GPT Movie Recommendation App 🎬
 
-Are you tired of endlessly scrolling through Netflix, struggling to find the perfect movie? Look no further - NetflixGPT is here to revolutionize your viewing experience! 🍿
+Tired of endlessly scrolling through Netflix, struggling to find the perfect movie? Look no further - NetflixGPT is here to revolutionize your viewing experience! 🍿
 
-NetflixGPT is your go-to movie discovery companion, powered by cutting-edge technology and designed for a seamless user experience. With the magic of OpenAI GPT-3, it understands your movie preferences beyond traditional genre-based filters, making movie nights a breeze.
+NetflixGPT is your ultimate movie discovery companion, powered by cutting-edge technology, and designed for a seamless user experience. With the magic of AI, it understands your movie preferences beyond traditional genre-based filters, making movie nights a breeze.
 
 ## 🚀 Tech Stack
 
@@ -11,31 +11,37 @@ Netflix-GPT is built using a modern tech stack that includes:
 - **Frontend**:
 
   - ReactJS: A JavaScript library for building user interfaces.
-  - Vite: A fast, modern build tool for web development.
   - Redux Toolkit: A library for efficient state management in React applications.
 
-- **Styling**:
-  - Tailwind CSS: A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.
-- **Authentication**:
+- **Backend**:
 
-  - Firebase Authentication: Firebase's authentication service for secure user management.
+  - Node.js: A JavaScript runtime for building server-side applications.
+  - Express: A web application framework for Node.js.
+  - MongoDB: A NoSQL database for storing movie data.
+  - Mongoose: An ODM (Object Data Modeling) library for MongoDB.
+  - Redis: In-memory data store used for caching MongoDB data.
+
+- **Styling**:
+
+  - Tailwind CSS: A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.
 
 - **AI Integration**:
 
-  - OpenAI API OpenAI API provides users access to new pre-trained AI models developed by OpenAI, such as DALL-E, Codex, and GPT-3.
+  - OpenAI API: OpenAI's API provides access to new pre-trained AI models developed by OpenAI
 
 - **Deployment**:
-  - Vercel and Firebase Hosting.
+  - Vercel for the frontend.
+  - Node.js hosting for the backend.
 
 ## 🚀 Features
 
-- **AI-Powered Recommendations**: NetflixGPT uses OpenAI GPT-3 to analyze your viewing history and preferences, delivering personalized movie recommendations based on factors like year, cast, genre, and more!
+- **AI-Powered Recommendations**: NetflixGPT uses OpenAI GPT-3 to analyze your natural language recommendation prompt to return accurate suggestions along with movie trailers and functionality to shortlist and save for watchlater.
 
 - **Sleek Design & User-Friendly**: Crafted with React and Tailwind CSS, NetflixGPT offers a stunning, intuitive interface that simplifies your movie search.
 
 - **Efficient State Management**: Thanks to Redux Toolkit, our app is optimized for performance, ensuring a smooth and responsive experience.
 
-- **Secure and Privacy First**: Firebase provides top-notch user authentication, while Protected Routes ensure your data remains private and secure.
+- **Secure and Privacy First**: Robust authentication and user management implemented with Node.js and Express, ensuring top-notch security.
 
 - **Huge Movie Database**: With integration to TMDB, NetflixGPT provides access to an extensive library of films from around the world.
 
